@@ -68,18 +68,31 @@ The Extended Transition Function for the string “**bceoa4a5ua9ra11a6xyz**” t
 δ*(WOP, ε) = WOP
 
 δ*(WOP, b) = δ (δ*(WOP, ε), b) = δ (WOP, b) = PC
+
 δ*(WOP, bc) = δ (δ*(WOP, b), c) = δ (PC, c) = HTPR
+
 δ*(WOP, bce) = δ (δ*(WOP, bc), e) = δ (HTPR, e) = RI
+
 δ*(WOP, bceo) = δ (δ*(WOP, bce), o) = δ (RI, o) = ST
+
 δ*(WOP, bceoa4) = δ (δ*(UWR, bceo), a4) = δ (ST, a4) = SD
+
 δ*(WOP, bceoa4a5) = δ (δ*(WOP, bceoa4), a5) = δ (SD, a5) = AWP
+
 δ*(WOP, bceoa4a5u) = δ (δ*(WOP, bceoa4a5), u) = δ (AWP, u) = PV
+
 δ*(WOP, bceoa4a5ua9) = δ (δ*(WOP, bceoa4a5u), a9) = δ (PV, a9) = AWP
+
 δ*(WOP, bceoa4a5ua9r) = δ (δ*(WOP, bceoa4a5ua9), r) = δ (P, r) = CSD
+
 δ*(WOP, bceoa4a5ua9ra11) = δ (δ*(WOP, bceoa4a5ua9r), a11) = δ (CSD, a11) = F
+
 δ*(WOP, bceoa4a5ua9ra11a6) = δ (δ*(WOP, bceoa4a5ua9ra11), a6) = δ (F, a6) = AWP
+
 δ*(WOP, bceoa4a5ua9ra11a6x) = δ (δ*(WOP, bceoa4a5ua9ra11a6), x) = δ (AWP, x) = UPR
+
 δ*(WOP, bceoa4a5ua9ra11a6xy) = δ (δ*(WOP, bceoa4a5ua9ra11a6x), y) = δ (UPR, y) = R
+
 δ*(WOP, bceoa4a5ua9ra11a6xyz) = δ (δ*(WOP, bceoa4a5ua9ra11a6xy), z) = δ (R, z) = WOP 
 
 ***
