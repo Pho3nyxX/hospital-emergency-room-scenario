@@ -1,6 +1,6 @@
 # Hospital Emergency Room Scenario (HERS)
 
-! Lizzi.PNG
+![image](/hospital-emergency-room-scenario/HERSDemoCode/Lizzi.PNG)
 
 This project uses finite state automation to simulate a test of a real-world process - _Hospital Emergency Room Scenario_ - in the browser.
 
