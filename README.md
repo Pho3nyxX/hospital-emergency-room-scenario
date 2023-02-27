@@ -66,6 +66,7 @@ F = {WaitingOnPatient}
 The Extended Transition Function for the string “**bceoa4a5ua9ra11a6xyz**” that visits most states is:
 
 δ*(WOP, ε) = WOP
+
 δ*(WOP, b) = δ (δ*(WOP, ε), b) = δ (WOP, b) = PC
 δ*(WOP, bc) = δ (δ*(WOP, b), c) = δ (PC, c) = HTPR
 δ*(WOP, bce) = δ (δ*(WOP, bc), e) = δ (HTPR, e) = RI
