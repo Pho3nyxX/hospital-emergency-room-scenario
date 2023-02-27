@@ -54,7 +54,7 @@ html {
 
 .mainLeftEyeContainer{
   position: absolute;
-  top: 120px;
+  top: 40px;
   left: 42px;
   bottom: 150px;
   margin: auto;
@@ -68,7 +68,7 @@ html {
 
 .mainRightEyeContainer{
   position: absolute;
-  top: 120px;
+  top: 40px;
   right: 47px;
   bottom: 150px;
   margin: auto;
